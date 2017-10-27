@@ -56,7 +56,6 @@ print ("""Content-type:text/html\r\n\r\n
     
     <div class="row">
         <div class="container-fluid col-10">""")
-print(verifUnique(nom,prenom,age,pseudo))
 if (verifUnique(nom,prenom,age,pseudo)):
     f = open('db', 'a')
     f.write(nom + ";" + prenom + ";" + pseudo + ";" + age+"\n")
