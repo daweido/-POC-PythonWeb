@@ -1,0 +1,5 @@
+Pour lancer le serveur web il vous suffit d'ouvrir une console dans le ce répertoire et l'executer ainsi :
+  ./server.py
+
+Ensuit aller sur votre navigateur préféré et accéder l'addresse suivant :
+  http://localhost:8888/index.py

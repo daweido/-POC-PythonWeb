@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.7.22)  27 OCT 2017 18:49
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.7.22)  27 OCT 2017 22:17
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -571,10 +571,9 @@ Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperHeight=\dimen155
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-No file main.aux.
-
+) (./main.aux)
 \openout1 = main.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
@@ -591,6 +590,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 39.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -673,32 +673,19 @@ LaTeX Info: Redefining \ohm on input line 39.
 Package gensymb Info: Using \textohm for \ohm on input line 39.
 Package gensymb Info: Using \textmu for \micro on input line 39.
 
-
-LaTeX Warning: File `logo1.png' not found on input line 46.
-
-
-! Package luatex.def Error: File `logo1.png' not found.
-
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46     \includegraphics[scale = 0.75 ]{logo1.png}
-                                                 \\[1.0 cm]	% University Logo
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(save: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generic/fo
-nts/otl/lmmono12-regular.lua)(save: /Users/davidrigaux/Library/texlive/2017/texm
-f-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc)(load luc: /Users/davi
-drigaux/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmromancap
-s10-regular.luc)(load luc: /Users/davidrigaux/Library/texlive/2017/texmf-var/lua
-tex-cache/generic/fonts/otl/lmroman17-regular.luc)(load luc: /Users/davidrigaux/
-Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
-)
+<images/logo1.png, id=1, 169.63374pt x 256.96pt>
+File: images/logo1.png Graphic file (type png)
+ <use images/logo1.png>
+Package luatex.def Info: images/logo1.png used on input line 46.
+(luatex.def)             Requested size: 127.22498pt x 192.71951pt.
+(load luc: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generi
+c/fonts/otl/lmromancaps10-regular.luc)(load luc: /Users/davidrigaux/Library/texl
+ive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc)(load lu
+c: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/
+otl/lmroman12-bold.luc)
 LaTeX Font Info:    Try loading font information for U+esvect on input line 62.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/esvect/uesvect.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 62.
@@ -707,110 +694,67 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 62.
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-No file main.toc.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/
+logo1.png>]
+(./main.toc)
 \tf@toc=\write3
 
 \openout3 = main.toc
-[1](save: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generic
-/fonts/otl/lmroman12-italic.lua)(save: /Users/davidrigaux/Library/texlive/2017/t
-exmf-var/luatex-cache/generic/fonts/otl/lmroman12-italic.luc)
-! Undefined control sequence.
-l.81 ...rojet un minimum plus beau visuellement. \br
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ [1](load luc: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/ge
+neric/fonts/otl/lmroman12-italic.luc) [2]
+<images/logo.png, id=18, 197.73875pt x 197.73875pt>
+File: images/logo.png Graphic file (type png)
+ <use images/logo.png>
+Package luatex.def Info: images/logo.png used on input line 87.
+(luatex.def)             Requested size: 142.26378pt x 142.26617pt.
 
+<images/index.png, id=19, 1557.82pt x 992.70876pt>
+File: images/index.png Graphic file (type png)
+ <use images/index.png>
+Package luatex.def Info: images/index.png used on input line 91.
+(luatex.def)             Requested size: 426.79134pt x 271.95815pt.
 
-LaTeX Warning: File `images/index.png' not found on input line 84.
+<images/confirm.png, id=20, 1557.82pt x 992.70876pt>
+File: images/confirm.png Graphic file (type png)
+ <use images/confirm.png>
+Package luatex.def Info: images/confirm.png used on input line 95.
+(luatex.def)             Requested size: 426.79134pt x 271.95815pt.
 
+<images/nonValide.png, id=21, 1557.82pt x 992.70876pt>
+File: images/nonValide.png Graphic file (type png)
 
-! Package luatex.def Error: File `images/index.png' not found.
+<use images/nonValide.png>
+Package luatex.def Info: images/nonValide.png used on input line 99.
+(luatex.def)             Requested size: 426.79134pt x 271.95815pt.
+ [3<./images/logo.png><./images/index.png>]
+<images/users.png, id=27, 1557.82pt x 992.70876pt>
+File: images/users.png Graphic file (type png)
+ <use images/users.png>
+Package luatex.def Info: images/users.png used on input line 103.
+(luatex.def)             Requested size: 426.79134pt x 271.95815pt.
 
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \includegraphics[width=8cm]{images/index.png}
-                                                
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/confirm.png' not found on input line 88.
-
-
-! Package luatex.def Error: File `images/confirm.png' not found.
-
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 \includegraphics[width=8cm]{images/confirm.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/nonValide.png' not found on input line 92.
-
-
-! Package luatex.def Error: File `images/nonValide.png' not found.
-
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ...udegraphics[width=8cm]{images/nonValide.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2]
-
-LaTeX Warning: File `images/users.png' not found on input line 96.
-
-
-! Package luatex.def Error: File `images/users.png' not found.
-
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \includegraphics[width=8cm]{images/users.png}
-                                                
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3] [4] (./main.aux))
+[4<./images/confirm.png><./images/nonValide.png>] [5<./images/users.png>]
+[6] [7] (./main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 12207 strings out of 494481
+ 12223 strings out of 494481
  100000,319454 words of node,token memory allocated
- 631 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 7 glue, 1 kern, 1 penalty, 40 attribute, 62 glue_sp
-ec, 10 attribute_list, 1 write nodes
-   avail lists: 2:320,3:28,4:8,5:88,6:812,7:235,8:19,9:68,10:3,11:75
- 15943 multiletter control sequences out of 65536+600000
- 44 fonts using 3237215 bytes
- 38i,10n,43p,799b,251s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 679 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 11 glue, 1 kern, 1 penalty, 48 attribute, 62 glue_s
+pec, 12 attribute_list, 1 write nodes
+   avail lists: 2:352,3:48,4:6,5:205,6:2844,7:634,8:11,9:85,10:4,11:259
+ 15968 multiletter control sequences out of 65536+600000
+ 45 fonts using 3374503 bytes
+ 38i,10n,43p,937b,249s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.ot
 f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-regular
 .otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold
 .otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmromancaps10-
-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono1
-2-regular.otf>
-Output written on main.pdf (5 pages, 24390 bytes).
+regular.otf>
+Output written on main.pdf (8 pages, 500852 bytes).
 
-PDF statistics: 55 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

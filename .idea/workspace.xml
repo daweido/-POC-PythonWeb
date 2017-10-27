@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16c9ad5f-1c56-42a1-a130-0ec3b51feb50" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo1.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.pdf" afterPath="$PROJECT_DIR$/main.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confirm.py" afterPath="$PROJECT_DIR$/confirm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db" afterPath="$PROJECT_DIR$/db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.aux" afterPath="$PROJECT_DIR$/main.aux" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.log" afterPath="$PROJECT_DIR$/main.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.tex" afterPath="$PROJECT_DIR$/main.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.toc" afterPath="$PROJECT_DIR$/main.toc" />
-    </list>
+    <list default="true" id="16c9ad5f-1c56-42a1-a130-0ec3b51feb50" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509122395188</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Version Finale">
+      <created>1509123405237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1509123405237</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers>
       <Gitlab shared="false" url="https://gitlab.etude.eisti.fr">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
