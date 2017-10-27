@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16c9ad5f-1c56-42a1-a130-0ec3b51feb50" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confirm.py" afterPath="$PROJECT_DIR$/confirm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db" afterPath="$PROJECT_DIR$/db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.py" afterPath="$PROJECT_DIR$/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.py" afterPath="$PROJECT_DIR$/users.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +40,8 @@
       <file leaf-file-name="db" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -227,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509118210504</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Version Finale">
+      <created>1509120262658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509120262658</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <Gitlab shared="false" url="https://gitlab.etude.eisti.fr">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -280,7 +284,8 @@
     <MESSAGE value="petit test maggle" />
     <MESSAGE value="Continuation de tout" />
     <MESSAGE value="Travail en cours ...." />
-    <option name="LAST_COMMIT_MESSAGE" value="Travail en cours ...." />
+    <MESSAGE value="Version Finale" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version Finale" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
