@@ -12,16 +12,18 @@ prenom  = form.getvalue('prenom').lower()
 age = form.getvalue('age').lower()
 pseudo = form.getvalue('pseudo').lower()
 
-
 def verifUnique(nom,prenom,age,pseudo):
     f = open('db','r')
     lineAjoute = nom+";"+prenom+";"+pseudo+";"+age
+    double = True
     for line in f:
         if (line == lineAjoute):
-            f.close()
-            return (False)
+            double = False
+            break
     f.close()
-    return (True)
+    return (double)
+
+
 
 
 print ("""Content-type:text/html\r\n\r\n
@@ -56,7 +58,7 @@ if (verifUnique(nom,prenom,age,pseudo)):
     f = open('db', 'a')
     f.write(nom + ";" + prenom + ";" + pseudo + ";" + age+"\n")
     f.close()
-    print("""<h1>Bienvenu !</h1>
+    print("""<h1>Bienvenue !</h1>
             <h2>Bonjour %s %s, A.K.A %s</h2>
             <p>Vous avez %s ans</p>
     """% (prenom.capitalize(), nom.capitalize(),pseudo.capitalize(),age))

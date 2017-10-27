@@ -26,10 +26,10 @@ print ("""Content-type:text/html\r\n\r\n
   </div>
 </nav>
 <div class="container-fluid">
-<h1>Bienvenu dans notre POC</h1>
+<h1>Bienvenue dans notre POC</h1>
     <div class="row">
         <div class="container-fluid col-6">
-            <form action="confirm.py" method="get">
+            <form action="confirm.py" method="post">
                 <div class="row">
                     <div class="form-group col-6">
                         <label for="prenom">Prenom :</label>
