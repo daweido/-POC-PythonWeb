@@ -3,10 +3,8 @@
 
 import cgi
 
-
 db = 'db'
 f = open(db,'r')
-
 
 print ("""Content-type:text/html\r\n\r\n
 <html>
@@ -17,7 +15,9 @@ print ("""Content-type:text/html\r\n\r\n
     </head>
     <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="./index.py">POC</a>
+  <a class="navbar-brand" href="./index.py">
+    <img src="img/logo.png" width="30" height="30" alt="">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -48,7 +48,6 @@ for line in f:
     for mot in line.split(';'):
         print("<td>%s</td>"%(mot))
     print("</tr>")
-
 
 print("""
     </table>

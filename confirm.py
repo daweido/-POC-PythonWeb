@@ -14,7 +14,7 @@ pseudo = form.getvalue('pseudo').lower()
 
 def verifUnique(nom,prenom,age,pseudo):
     f = open('db','r')
-    lineAjoute = nom+";"+prenom+";"+pseudo+";"+age
+    lineAjoute = nom+";"+prenom+";"+pseudo+";"+age+"\n"
     double = True
     for line in f:
         if (line == lineAjoute):
@@ -36,7 +36,9 @@ print ("""Content-type:text/html\r\n\r\n
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="./index.py">POC</a>
+ <a class="navbar-brand" href="./index.py">
+    <img src="img/logo.png" width="30" height="30" alt="">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -54,6 +56,7 @@ print ("""Content-type:text/html\r\n\r\n
     
     <div class="row">
         <div class="container-fluid col-10">""")
+print(verifUnique(nom,prenom,age,pseudo))
 if (verifUnique(nom,prenom,age,pseudo)):
     f = open('db', 'a')
     f.write(nom + ";" + prenom + ";" + pseudo + ";" + age+"\n")
