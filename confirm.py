@@ -76,7 +76,7 @@ print("""
 <div class="row"> 
                    <form action="users.py"> 
                         <div class="form-group col-6"> 
-                            <button type="submit" value="Jetter un coup d'oeil aux utilisateurs" class="btn btn-primary">Jetter un oeil aux utilisateurs</button> 
+                            <button type="submit" value="voirUtilisateurs" class="btn btn-primary">Jetter un coup d'oeil aux utilisateurs</button> 
                         </div> 
                     </form> 
                 </div> 

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.7.22)  27 OCT 2017 18:25
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.7.22)  27 OCT 2017 18:49
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.117 seconds
+luaotfload | main : initialization completed in 0.114 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -571,9 +571,10 @@ Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperHeight=\dimen155
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-) (./main.aux)
-\openout1 = main.aux
+)
+No file main.aux.
 
+\openout1 = main.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
@@ -590,7 +591,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 39.
-
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -673,19 +673,32 @@ LaTeX Info: Redefining \ohm on input line 39.
 Package gensymb Info: Using \textohm for \ohm on input line 39.
 Package gensymb Info: Using \textmu for \micro on input line 39.
 
-<images/logo1.png, id=1, 169.63374pt x 256.96pt>
-File: images/logo1.png Graphic file (type png)
- <use images/logo1.png>
-Package luatex.def Info: images/logo1.png used on input line 46.
-(luatex.def)             Requested size: 127.22498pt x 192.71951pt.
-(load luc: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generi
-c/fonts/otl/lmromancaps10-regular.luc)(load luc: /Users/davidrigaux/Library/texl
-ive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc)(load lu
-c: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/
-otl/lmroman12-bold.luc)
-LaTeX Font Info:    Try loading font information for U+esvect on input line 62.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/esvect/uesvect.fd
+LaTeX Warning: File `logo1.png' not found on input line 46.
+
+
+! Package luatex.def Error: File `logo1.png' not found.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46     \includegraphics[scale = 0.75 ]{logo1.png}
+                                                 \\[1.0 cm]	% University Logo
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(save: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generic/fo
+nts/otl/lmmono12-regular.lua)(save: /Users/davidrigaux/Library/texlive/2017/texm
+f-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc)(load luc: /Users/davi
+drigaux/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmromancap
+s10-regular.luc)(load luc: /Users/davidrigaux/Library/texlive/2017/texmf-var/lua
+tex-cache/generic/fonts/otl/lmroman17-regular.luc)(load luc: /Users/davidrigaux/
+Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
+)
+LaTeX Font Info:    Try loading font information for U+esvect on input line 62.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 62.
@@ -694,32 +707,110 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 62.
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/
-logo1.png>]
-(./main.toc)
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+No file main.toc.
 \tf@toc=\write3
 
 \openout3 = main.toc
- [1] [2] (./main.aux))
+[1](save: /Users/davidrigaux/Library/texlive/2017/texmf-var/luatex-cache/generic
+/fonts/otl/lmroman12-italic.lua)(save: /Users/davidrigaux/Library/texlive/2017/t
+exmf-var/luatex-cache/generic/fonts/otl/lmroman12-italic.luc)
+! Undefined control sequence.
+l.81 ...rojet un minimum plus beau visuellement. \br
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `images/index.png' not found on input line 84.
+
+
+! Package luatex.def Error: File `images/index.png' not found.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \includegraphics[width=8cm]{images/index.png}
+                                                
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/confirm.png' not found on input line 88.
+
+
+! Package luatex.def Error: File `images/confirm.png' not found.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \includegraphics[width=8cm]{images/confirm.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/nonValide.png' not found on input line 92.
+
+
+! Package luatex.def Error: File `images/nonValide.png' not found.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...udegraphics[width=8cm]{images/nonValide.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2]
+
+LaTeX Warning: File `images/users.png' not found on input line 96.
+
+
+! Package luatex.def Error: File `images/users.png' not found.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \includegraphics[width=8cm]{images/users.png}
+                                                
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3] [4] (./main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 12168 strings out of 494481
+ 12207 strings out of 494481
  100000,319454 words of node,token memory allocated
- 592 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 1 penalty, 32 attribute, 61 glue_sp
-ec, 8 attribute_list, 1 write nodes
-   avail lists: 2:235,3:34,4:3,5:46,6:124,7:115,8:7,9:56,10:2,11:13
- 15945 multiletter control sequences out of 65536+600000
- 43 fonts using 3111127 bytes
- 38i,10n,43p,342b,229s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.o
-tf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.o
-tf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmromancaps10-re
-gular.otf>
-Output written on main.pdf (3 pages, 28626 bytes).
+ 631 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 7 glue, 1 kern, 1 penalty, 40 attribute, 62 glue_sp
+ec, 10 attribute_list, 1 write nodes
+   avail lists: 2:320,3:28,4:8,5:88,6:812,7:235,8:19,9:68,10:3,11:75
+ 15943 multiletter control sequences out of 65536+600000
+ 44 fonts using 3237215 bytes
+ 38i,10n,43p,799b,251s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.ot
+f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-regular
+.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold
+.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmromancaps10-
+regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono1
+2-regular.otf>
+Output written on main.pdf (5 pages, 24390 bytes).
 
-PDF statistics: 37 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+PDF statistics: 55 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
