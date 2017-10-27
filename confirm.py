@@ -37,7 +37,7 @@ print ("""Content-type:text/html\r\n\r\n
                <div class="row">
                    <form action="users.py">
                         <div class="form-group col-6">
-                            <button type="submit" value="Jettertest un coup d'oeil aux utilisateurs" class="btn btn-primary">Jetter un oeil aux utilisateurs</button>
+                            <button type="submit" value="Jetter un coup d'oeil aux utilisateurs" class="btn btn-primary">Jetter un oeil aux utilisateurs</button>
                         </div>
                     </form>
                 </div>
