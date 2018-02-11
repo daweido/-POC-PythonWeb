@@ -7,14 +7,24 @@ Ceci est un projet fait en première année du cycle ingénieur, codé en [Pytho
 Pour lancer le serveur web il vous suffit d'ouvrir une console dans le ce répertoire et l'executer ainsi :
 ``./server.py``
 
-Ensuit aller sur votre navigateur préféré et accéder l'addresse suivant :
-  (http://localhost:8888/index.py)
+Ensuite aller sur votre navigateur préféré et accéder l'addresse suivant :
+
+http://localhost:8888/index.py
 
 
 (Version anglaise / English version)
 
 # Python Web Proof Of Concept (POC)
 This is a project made in first year of engineering curriculum coded in [Python](https://www.python.org/). This project is an experimentation of web devleopement using Python as a backend language.
+
+## How to use
+
+To launch the web server all you have to do is open a terminal in the `src` directory and execute the following command :
+``./server.py``
+
+You then have to open the following link in your favorite navigator :
+
+http://localhost:8888/index.py
 
 # License (MIT)
 Copyright 2017 David RIGAUX
