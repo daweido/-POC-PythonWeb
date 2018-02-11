@@ -3,6 +3,14 @@
 # Python Web Proof Of Concept (POC)
 Ceci est un projet fait en première année du cycle ingénieur, codé en [Python](https://www.python.org/). Ce porjet est un essais de développement web à l'aide du langage serveur Python.
 
+## Comment utiliser
+Pour lancer le serveur web il vous suffit d'ouvrir une console dans le ce répertoire et l'executer ainsi :
+``./server.py``
+
+Ensuit aller sur votre navigateur préféré et accéder l'addresse suivant :
+  (http://localhost:8888/index.py)
+
+
 (Version anglaise / English version)
 
 # Python Web Proof Of Concept (POC)
